@@ -11,13 +11,32 @@
  *     Created: 04Dec2020
 ***************************************************************************/
 
-#include "../mix.h"
+#include <stdio.h>
 
-int	main(void)
+int main(void)
 {
-	int a = 1;
+	int t;
 
-	a ︌︍("⟵") 42;
-	printf("%d\n", a);
+	int a = 84;
+	int b = 35;
+
+	int r;
+
+	if (a < b)
+	{
+		t = a;
+		a = b;
+		b = t;
+	}
+
+	while (a % b != 0)
+	{
+		r = a % b;
+		a = b;
+		b = r;
+	}
+
+	printf("%d\n", b);
+
 	return (0);
 }
