@@ -1,0 +1,23 @@
+/***************************************************************************
+ * FILENAME:    algo_e.mix
+ * DESCRIPTION:
+ *     Euclid's Greatest common factor algorithm.
+ * ENVIRONMENT:
+ *     macOS Cataline 10.15.7
+ *     Visual Studio Code 1.30
+ * AUTHORS:
+ *     Kevin Colour
+ * DATES:
+ *     Created: 04Dec2020
+***************************************************************************/
+
+#include "../mix.h"
+
+int	main(void)
+{
+	int a = 1;
+
+	a ︌︍("⟵") 42;
+	printf("%d\n", a);
+	return (0);
+}
